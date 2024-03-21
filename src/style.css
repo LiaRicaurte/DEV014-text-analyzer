@@ -1,0 +1,79 @@
+
+
+/*/
+.color1 {color: #558b9e;}
+.color2 {color: #377a7a;}
+.color3 {color: #9cbea2;}
+.color4 {color: #e4e6c4;}
+.color5 {color: #efefe1;}
+;
+/*/
+
+/*/background-color: #0E2C40 azul oscuro #1A4A5A azul gris #148D8D celeste #EFBC75 tomate/*/
+
+html {
+    background-color: #1A4A5A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    color: #EFBC75;
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea[name="user-input"] {
+    font-family: 'Trebuchet MS';
+    background: whitesmoke;
+    border-color: #0E2C40;
+    border-width: 2px; 
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 400px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.caracteres {
+    color: #0E2C40;
+    font-family: 'Trebuchet MS';
+    font-size: small;
+    text-align: center;
+    list-style: none;
+    background:#EFBC75;
+    border-color: #0E2C40;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 3px;
+    width: 400px;
+    opacity: 0.7;
+}
+
+footer {
+    color: #C1E1A7;
+    font-family: 'Trebuchet MS';
+    font-size: x-small;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+#reset-button {
+    font-family: 'Trebuchet MS';
+    background-color: #C1E1A7;
+    border-color: #0E2C40;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 350px;
+    padding: 10px;
+    opacity: 0.8;
+}
