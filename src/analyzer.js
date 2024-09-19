@@ -1,7 +1,5 @@
 const analyzer = {  
-  //retorna recuento de palabras
   getWordCount: (text) => {
-    //a la constante arregloPalabras se le asigna la tarea de dividir el texto en unidades separadas por un espacio (" ")
     const arregloPalabras = text.split(" ");
     let contadorPalabras = 0;
     for (let i = 0; i < arregloPalabras.length; i++) {
@@ -70,9 +68,6 @@ const analyzer = {
 
   },
   getNumberSum: (text) => {
-  // crear constante que almacene los caracteres identificados como numeros
-  // sumar los numeros almacenados 
-  // crear variable que bote el resultado de la suma de numeros
     const arregloPalabras = text.trim().split(" ");
     let sumaNumeros = 0;
 

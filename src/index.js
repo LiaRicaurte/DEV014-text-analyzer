@@ -1,5 +1,5 @@
 import analyzer from './analyzer.js';
-// constantes globales: puedo usarlos en todo el index.js en cualquier funcion
+
 const cuadrotexto = document.querySelector("textarea");
 const palabras = document.querySelector("li[data-testid=word-count]");
 const caracteres = document.querySelector("li[data-testid=character-count]");
@@ -21,7 +21,6 @@ cuadrotexto.addEventListener("input", function(){
 
 boton.addEventListener("click", function (){
   cuadrotexto.value = "";
-  //borrar las metricas de los <li>
   palabras.innerHTML = "Cantidad de palabras: " + "0";
   caracteres.innerHTML = "Cantidad de caracteres: " + "0";
   caracteresSinESpacios.innerHTML = "Caracteres sin espacios ni signos de puntuación: " + "0";
@@ -31,5 +30,3 @@ boton.addEventListener("click", function (){
   
 
 });
-
-//TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
